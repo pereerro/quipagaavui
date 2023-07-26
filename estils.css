@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background: #ECEFF1;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#aplicacio {
+    background: white;
+    max-width: 360px;
+    margin: 10px auto 16px;
+    padding: 32px 24px;
+    border-radius: 3px;
+}
+
+#aplicacio h2 {
+    color: #ffa100;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 0 8px;
+}
+
+#aplicacio p {
+    line-height: 140%;
+    margin: 16px 0 24px;
+    font-size: 14px;
+}
+
+#load {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 13px;
+}
+
+#dades li {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    border-style: outset;
+}
+
+@media (max-width: 600px) {
+
+    body,
+    #aplicacio {
+        margin-top: 0;
+        background: white;
+        box-shadow: none;
+    }
+
+    body {
+        border-top: 16px solid #ffa100;
+    }
+}
+
+.div_obert h4 {
+    font-size:larger;
+}
+
+.pestanya div {
+    display:none;
+}
+
+div.div_obert div {
+    display:block;
+}
+
+.inputa {
+    margin: 5px;
+}
+
+button {
+    margin: 30px;
+}
+
+.pestanya h4 {
+    color:blue;
+}
+
+input:invalid {
+    background-color: lightpink;
+}
